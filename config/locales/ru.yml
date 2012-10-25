@@ -1,5 +1,7 @@
 ---
 ru: 
+  'yes': "Да"
+  'no': "Нет"
   a_copy_of_all_mail_will_be_sent_to_the_following_addresses: "Копии всех писем будут отосланы на следующие адреса"
   abbreviation: "Аббревиатура"
   access_denied: "Доступ запрещен"
@@ -83,7 +85,7 @@ ru:
         available_on: "Доступно с"
         cost_price: "Себестоимость"
         description: "Описание"
-        master_price: "Основная цена"
+        master_price: "Осн. цена"
         name: "Название"
         on_demand: "По запросу"
         on_hand: "В наличии"
@@ -571,7 +573,7 @@ ru:
   mail_server_preferences: "Настройки почтового сервера"
   make_refund: "Сделать возврат"
   mark_shipped: "Отметить как отправленный"
-  master_price: "Основная цена"
+  master_price: "осн. цена"
   match_choices: 
     all: "Всем"
     none: "Ни одному"
@@ -1204,3 +1206,31 @@ ru:
   zone_based: "Состоит из других зон"
   zone_setting_description: "Настройка торговых зон на основе стран, областей и других торговых зон."
   zones: "Торговые зоны"
+
+
+
+
+# sync, wtf? ...
+  filter_results: "Результаты"
+  on_demand: "По заявке"
+  countries: "Страны"
+  choose_currency: "Выберите валюту"
+  no_mail_methods_defined: "Методы отправки почты не определены"
+  no_trackers_found: "Счетчики не найдены"
+  add_one: "Добавить"
+  listing_countries: "Список стран"
+  states_required: "Области/Регионы"
+  iso_name: "Имя ISO"
+  order_information: "Информация о заказе"
+  back_to_orders_list: "Вернуться к списку заказов"
+  views:
+    pagination:
+      first: "Первая"
+      last: "Последняя"
+      next: "Вперед"
+      previous: "Назад"
+      truncate: "&hellip;"
+  pagination: 
+    next_page: "след. страница &raquo;"
+    previous_page: "&laquo; пред. страница"
+    truncate: "&hellip;" 
