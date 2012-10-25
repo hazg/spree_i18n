@@ -241,11 +241,11 @@ ru:
   adjustments: "Надбавки"
   admin: 
     mail_methods: 
-      send_testmail: 'Send Testmail'
+      send_testmail: "Отправить проверочное письмо"
       testmail: 
-        delivery_error: 'Testmail delivery error'
-        delivery_success: 'Testmail sent successfully'
-        error: 'Testmail error: %{e}'
+        delivery_error: "Ошибка доставки проверочного письма"
+        delivery_success: 'Проверочное письмо доставленно успешно'
+        error: 'Ошибки доставки проверочного письма: %{e}'
   administration: "Администрирование"
   all: "все"
   all_departments: "Все разделы"
@@ -1106,9 +1106,9 @@ ru:
   street_address_2: "Адрес (строка 2)"
   subtotal: "Подытог"
   subtract: "Вычет"
-  successfully_created: "%{resource} был успешно создан!"
-  successfully_removed: "%{resource} был успешно удален!"
-  successfully_updated: "%{resource} был успешно обновлен!"
+  successfully_created: "Создано: %{resource}"
+  successfully_removed: "Удалено: %{resource}"
+  successfully_updated: "Обновлено: %{resource}"
   system: "Система"
   tax: "Налог"
   tax_categories: "Категории налогов"
@@ -1209,8 +1209,14 @@ ru:
 
 
 
+#TODO: Promotions
 
 # sync, wtf? ...
+  spree:
+    time: "Время"
+    date: "Дата"
+  check_for_spree_alerts: 'Проверять обновления Spree'
+  no_promotions_found: "Промо-акции не найдены"
   filter_results: "Результаты"
   on_demand: "По заявке"
   countries: "Страны"
